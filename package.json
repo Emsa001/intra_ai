@@ -1,0 +1,36 @@
+{
+  "name": "mr_aibot",
+  "description": "",
+  "version": "1.0.0",
+  "type": "module",
+  "devDependencies": {
+    "tsx": "^4.9.3",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@langchain/google-vertexai": "^0.0.12",
+    "@langchain/openai": "^0.0.28",
+    "axios": "^1.6.8",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "langchain": "^0.1.36",
+    "momentjs": "^2.0.0",
+    "mysql2": "^3.9.7",
+    "sequelize": "^6.37.3",
+    "zod": "^3.23.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsx src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UplineServers/mr_aibot.git"
+  },
+  "author": "Emanuel Scura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UplineServers/mr_aibot/issues"
+  },
+  "homepage": "https://github.com/UplineServers/mr_aibot#readme"
+}
